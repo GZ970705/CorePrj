@@ -1,0 +1,185 @@
+
+＝＝＝＝＝＝＝＝＝＝
+【日志级别】：ERROR
+【记录时间】：2021-03-15 15:40:20,866 
+【执行时间】：[1110125]毫秒
+【抛出信息】：登录失败:Parameter count mismatch. 
+【异常类型】：TargetParameterCountException 
+【异常信息】：Parameter count mismatch. 
+【堆栈调用】：
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at System.Reflection.PropertyInfo.GetValue(Object obj)
+   at PrjWebJWTandSwwage.JWT.TokenHelper.CreateToken[T](T user) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\JWT\TokenHelper.cs:line 40
+   at PrjWebJWTandSwwage.JWT.TokenHelper.CreateToken[T](T user) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\JWT\TokenHelper.cs:line 49
+   at PrjWebJWTandSwwage.SwaggerController.Login(String name, String pwd) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\Controllers\SwaggerController.cs:line 57
+
+＝＝＝＝＝＝＝＝＝＝
+【日志级别】：ERROR
+【记录时间】：2021-03-15 15:41:45,050 
+【执行时间】：[25187]毫秒
+【抛出信息】：登录失败:Parameter count mismatch. 
+【异常类型】：TargetParameterCountException 
+【异常信息】：Parameter count mismatch. 
+【堆栈调用】：
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at System.Reflection.PropertyInfo.GetValue(Object obj)
+   at PrjWebJWTandSwwage.JWT.TokenHelper.CreateToken[T](T user) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\JWT\TokenHelper.cs:line 40
+   at PrjWebJWTandSwwage.JWT.TokenHelper.CreateToken[T](T user) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\JWT\TokenHelper.cs:line 49
+   at PrjWebJWTandSwwage.SwaggerController.Login(String name, String pwd) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\Controllers\SwaggerController.cs:line 57
+
+＝＝＝＝＝＝＝＝＝＝
+【日志级别】：ERROR
+【记录时间】：2021-03-15 15:53:41,730 
+【执行时间】：[63933]毫秒
+【抛出信息】：全局异常 
+【异常类型】：KeyNotFoundException 
+【异常信息】：The given key 'loginName' was not present in the dictionary. 
+【堆栈调用】：
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at PrjWebJWTandSwwage.TokenFile.TokenFilter.<>c__DisplayClass3_0.<OnActionExecuting>b__1(Dictionary`2 action) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\TokenFile\TokenFilter.cs:line 42
+   at PrjWebJWTandSwwage.JWT.TokenHelper.ValiTokenState(String encodeJwt, Func`2 validate, Action`1 action) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\JWT\TokenHelper.cs:line 154
+   at PrjWebJWTandSwwage.TokenFile.TokenFilter.OnActionExecuting(ActionExecutingContext context) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\TokenFile\TokenFilter.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+＝＝＝＝＝＝＝＝＝＝
+【日志级别】：ERROR
+【记录时间】：2021-03-15 16:00:23,856 
+【执行时间】：[75727]毫秒
+【抛出信息】：全局异常 
+【异常类型】：FormatException 
+【异常信息】：The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+【堆栈调用】：
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoder.DecodeBytes(String str)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoder.Decode(String arg)
+   at PrjWebJWTandSwwage.JWT.TokenHelper.ValiTokenState(String encodeJwt, Func`2 validate, Action`1 action) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\JWT\TokenHelper.cs:line 127
+   at PrjWebJWTandSwwage.TokenFile.TokenFilter.OnActionExecuting(ActionExecutingContext context) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\TokenFile\TokenFilter.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+＝＝＝＝＝＝＝＝＝＝
+【日志级别】：ERROR
+【记录时间】：2021-03-15 16:01:57,084 
+【执行时间】：[168954]毫秒
+【抛出信息】：全局异常 
+【异常类型】：FormatException 
+【异常信息】：The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+【堆栈调用】：
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoder.DecodeBytes(String str)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoder.Decode(String arg)
+   at PrjWebJWTandSwwage.JWT.TokenHelper.ValiTokenState(String encodeJwt, Func`2 validate, Action`1 action) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\JWT\TokenHelper.cs:line 127
+   at PrjWebJWTandSwwage.TokenFile.TokenFilter.OnActionExecuting(ActionExecutingContext context) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\TokenFile\TokenFilter.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+＝＝＝＝＝＝＝＝＝＝
+【日志级别】：ERROR
+【记录时间】：2021-03-15 16:04:36,220 
+【执行时间】：[328091]毫秒
+【抛出信息】：全局异常 
+【异常类型】：FormatException 
+【异常信息】：The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters. 
+【堆栈调用】：
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoder.DecodeBytes(String str)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoder.Decode(String arg)
+   at PrjWebJWTandSwwage.JWT.TokenHelper.ValiTokenState(String encodeJwt, Func`2 validate, Action`1 action) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\JWT\TokenHelper.cs:line 127
+   at PrjWebJWTandSwwage.TokenFile.TokenFilter.OnActionExecuting(ActionExecutingContext context) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\TokenFile\TokenFilter.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+＝＝＝＝＝＝＝＝＝＝
+【日志级别】：ERROR
+【记录时间】：2021-03-15 16:08:03,112 
+【执行时间】：[44453]毫秒
+【抛出信息】：全局异常 
+【异常类型】：IndexOutOfRangeException 
+【异常信息】：Index was outside the bounds of the array. 
+【堆栈调用】：
+   at PrjWebJWTandSwwage.JWT.TokenHelper.ValiTokenState(String encodeJwt, Func`2 validate, Action`1 action) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\JWT\TokenHelper.cs:line 123
+   at PrjWebJWTandSwwage.TokenFile.TokenFilter.OnActionExecuting(ActionExecutingContext context) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\TokenFile\TokenFilter.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+＝＝＝＝＝＝＝＝＝＝
+【日志级别】：ERROR
+【记录时间】：2021-03-15 16:08:26,204 
+【执行时间】：[67545]毫秒
+【抛出信息】：全局异常 
+【异常类型】：KeyNotFoundException 
+【异常信息】：The given key 'UserName' was not present in the dictionary. 
+【堆栈调用】：
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at PrjWebJWTandSwwage.TokenFile.TokenFilter.<>c__DisplayClass3_0.<OnActionExecuting>b__1(Dictionary`2 action)
+   at PrjWebJWTandSwwage.JWT.TokenHelper.ValiTokenState(String encodeJwt, Func`2 validate, Action`1 action)
+   at PrjWebJWTandSwwage.TokenFile.TokenFilter.OnActionExecuting(ActionExecutingContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+＝＝＝＝＝＝＝＝＝＝
+【日志级别】：ERROR
+【记录时间】：2021-03-15 16:10:33,610 
+【执行时间】：[28029]毫秒
+【抛出信息】：全局异常 
+【异常类型】：KeyNotFoundException 
+【异常信息】：The given key 'Name' was not present in the dictionary. 
+【堆栈调用】：
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at PrjWebJWTandSwwage.TokenFile.TokenFilter.<>c__DisplayClass3_0.<OnActionExecuting>b__1(Dictionary`2 action) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\TokenFile\TokenFilter.cs:line 42
+   at PrjWebJWTandSwwage.JWT.TokenHelper.ValiTokenState(String encodeJwt, Func`2 validate, Action`1 action) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\JWT\TokenHelper.cs:line 155
+   at PrjWebJWTandSwwage.TokenFile.TokenFilter.OnActionExecuting(ActionExecutingContext context) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\TokenFile\TokenFilter.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
