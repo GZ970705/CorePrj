@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PrjWebJWTandSwwage.Models;
 using PrjWebJWTandSwwage.RabbitMQTools;
+using PrjWebJWTandSwwage.TokenFile;
 
 namespace PrjWebJWTandSwwage.Controllers
 {
-    [Route("api/[controller]")]
+    [EnableCors("cors")]
+    [ServiceFilter(typeof(TokenFilter))]
+    [Produces("application/json")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class RabbitMQController : ControllerBase
     {
@@ -21,11 +26,12 @@ namespace PrjWebJWTandSwwage.Controllers
             this._message = message;
             this._rabbit = rabbit;
         }
-        /// <summary>
-        /// MQ发送消息
-        /// </summary>
-        /// <param name="testmq"></param>
-        /// <returns></returns>
+        // <summary>
+        // MQ发送消息
+        // </summary>
+        // <param name = "testmq" >消息</ param >
+       // < returns ></ returns >
+        [HttpPost]
         public IActionResult SpendMessa(string testmq)
         {
             var json = new JsonResultModels();
@@ -45,7 +51,11 @@ namespace PrjWebJWTandSwwage.Controllers
 
             return Ok(json);
         }
-
+        /// <summary>
+        /// 得到消息
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost]
         public ActionResult GetMessa()
         {
             _rabbit.Register();

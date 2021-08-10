@@ -34,7 +34,7 @@ namespace PrjWebJWTandSwwage.Tools
     {
         //public static ILogger Log = UtilLogger<RedisCommon>.Log;//日志记录
         //redis数据库连接字符串
-        private string _conn = AppConfigurtaionServices.Configuration["RedisCaching:ReadWriteHosts"] ?? "13.187.18.9:6379";
+        private string _conn = AppConfigurtaionServices.Configuration["RedisCaching:ReadWriteHosts"] ?? "127.0.0.1:6379";
         private int _db = 0;
         //静态变量 保证各模块使用的是不同实例的相同链接
         private static ConnectionMultiplexer connection;
@@ -131,6 +131,7 @@ namespace PrjWebJWTandSwwage.Tools
         /// <typeparam name="T"></typeparam>
         /// <param name="key"></param>
         /// <param name="obj"></param>
+        /// <param name="expiry"></param>
         /// <returns></returns>
         public bool SetStringKey<T>(string key, T obj, TimeSpan? expiry = default(TimeSpan?))
         {

@@ -4,9 +4,526 @@
         <name>PrjWebJWTandSwwage</name>
     </assembly>
     <members>
+        <member name="T:PrjWebJWTandSwwage.Base.BaseInfo">
+            <summary>
+            模型基类
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Base.BaseInfo.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Base.BaseInfo.IsNew">
+            <summary>
+            是否新对象
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Base.BaseInfo.UptDtt">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Base.VersionInfo">
+            <summary>
+             版本号模型基类
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Base.VersionInfo.IsNew">
+            <summary>
+            是否新对象
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Base.VersionInfo.Version">
+            <summary>
+            版本号
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.BLL.Common.FoundationBLL.HandleValidate(PrjWebJWTandSwwage.Common.ValiReturnInfo)">
+            <summary>
+            处理校验信息
+            </summary>
+            <param name="prmValidateReturn">校验信息</param>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.BLL.UserBLL.SaveValidate(PrjWebJWTandSwwage.Models.Users)">
+            <summary>
+            用户表保存校验
+            </summary>
+            <param name="prmUsr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.BLL.UserBLL.DeleteValidate(PrjWebJWTandSwwage.Models.Users)">
+            <summary>
+            用户表删除校验
+            </summary>
+            <param name="prmUsr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Common.Attributes.ApiBLLAttribute">
+            <summary>
+            BLL层接口发布标识
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Common.Attributes.MarkedAttribute">
+            <summary>
+            用来标记类属性，可以控制是否赋值
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Common.Helpers.EncryptHelper">
+            <summary>
+            加密解密辅助类
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.Helpers.EncryptHelper.EncryptDES(System.String)">
+            <summary>  
+            DES加密字符串  
+            </summary>  
+            <param name="encryptString">待加密的字符串</param>  
+            <returns>加密成功返回加密后的字符串，失败返回源串</returns>  
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.Helpers.EncryptHelper.DecryptDES(System.String)">
+            <summary>  
+            DES解密字符串  
+            </summary>  
+            <param name="decryptString">待解密的字符串</param>  
+            <returns>解密成功返回解密后的字符串，失败返源串</returns>  
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.Helpers.EncryptHelper.EncryptBase64(System.String)">
+            <summary>
+            Base64加密【标准编码方式】
+            </summary>
+            <param name="encryptStr">需要加密的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.Helpers.EncryptHelper.EncryptByBase64(System.String,System.String,System.Text.Encoding)">
+            <summary>
+            Base64加密【非标准编码方式】
+            </summary>
+            <param name="encryptStr">需要加密的字符串</param>
+            <param name="sKey">密钥</param>
+            <param name="encoding">编码格式，默认传null或不传，默认UTF-8编码</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.Helpers.EncryptHelper.DecryptBase64(System.String)">
+            <summary>
+            Base64解密【标准编码方式】
+            </summary>
+            <param name="decryptStr">需要解密的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.Helpers.EncryptHelper.EncryptByMD5(System.String)">
+            <summary>
+            MD5加密摘要算法
+            </summary>
+            <param name="encryptStr">需要加密的字符串</param>
+            <returns>返回：已加密的字符串</returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.Helpers.EncryptHelper.EncryptByMD5(System.String,System.Boolean)">
+            <summary>
+            MD5两次加密
+            </summary>
+            <param name="encryptStr">需要加密的字符串</param>
+            <param name="isDouble">是否两次加密</param>
+            <returns>返回：已加密的字符串</returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.Helpers.EncryptHelper.EncryptByMD5(System.String,System.Boolean,System.Int32)">
+            <summary>
+            MD5两次加密，并截取掉后几位
+            </summary>
+            <param name="encryptStr">需要加密的字符串</param>
+            <param name="isDouble">是否两次加密</param>
+            <param name="length">需要截取的长度</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.Helpers.EncryptHelper.EncryptByDES(System.String,System.String)">
+            <summary>
+            DES加密
+            </summary>
+            <param name="encryptStr">需要加密的字符串</param>
+            <param name="sKey">密钥，且必须为8位</param>
+            <returns>返回：已加密的字符串</returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.Helpers.EncryptHelper.DecryptByDES(System.String,System.String)">
+            <summary>
+            DES解密
+            </summary>
+            <param name="decryptStr">要解密的字符串</param>
+            <param name="sKey">密钥，且必须为8位</param>
+            <returns>返回：已解密的字符串</returns>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Common.Helpers.HashtableHelper">
+            <summary>
+            键值对辅助类
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.Helpers.HashtableHelper.Create(System.Object[])">
+            <summary>
+            创建键值对
+            </summary>
+            <param name="args">键值对</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.Helpers.HashtableHelper.Add(System.Collections.Hashtable,System.Object[])">
+            <summary>
+            追加键值
+            </summary>
+            <param name="hashtable"></param>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.Helpers.HashtableHelper.Copy(System.Collections.Hashtable)">
+            <summary>
+            复制键值对
+            </summary>
+            <param name="hashtable"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Common.Helpers.StringHelpers">
+            <summary>
+            字符串辅助类
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.Helpers.StringHelpers.GetEllipsis(System.String,System.Int32,System.String)">
+            <summary>
+            界面显示文字过长,显示省略符
+            </summary>
+            <param name="str">界面显示文字</param>
+            <param name="sum">截取长度</param>
+            <param name="Ellipsis">省略符</param>
+            <returns></returns>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Common.IviewTree">
+            <summary>
+            基于Iview的树形类
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.IviewTree.ID">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.IviewTree.title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.IviewTree.expand">
+            <summary>
+            是否展开直子节点
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.IviewTree.disabled">
+            <summary>
+            禁掉响应
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.IviewTree.disableCheckbox">
+            <summary>
+            禁掉 checkbox
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.IviewTree.selected">
+            <summary>
+            是否选中子节点
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.IviewTree.checked">
+            <summary>
+            是否勾选(如果勾选，子节点也会全部勾选)
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.IviewTree.children">
+            <summary>
+            子节点属性数组
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.IviewTree.Brf">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Common.MessageException">
+            <summary>
+            异常消息提示
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.MessageException.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.MessageException.#ctor(System.String)">
+            <summary>
+            初始化实例
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.MessageException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            初始化实例
+            </summary>
+            <param name="info"></param>
+            <param name="context"></param>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.MessageException.#ctor(System.String,System.Exception)">
+            <summary>
+            初始化实例
+            </summary>
+            <param name="message"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Common.OperateCode">
+            <summary>
+            操作返回枚举以及对应的返回编码
+            </summary>
+        </member>
+        <member name="F:PrjWebJWTandSwwage.Common.OperateCode.Success">
+            <summary>
+            操作成功
+            </summary>
+        </member>
+        <member name="F:PrjWebJWTandSwwage.Common.OperateCode.Failed">
+            <summary>
+            {0}失败
+            </summary>
+        </member>
+        <member name="F:PrjWebJWTandSwwage.Common.OperateCode.UnknownError">
+            <summary>
+            未知错误
+            </summary>
+        </member>
+        <member name="F:PrjWebJWTandSwwage.Common.OperateCode.Questioning">
+            <summary>
+             询问
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Common.OperateReturnInfo">
+            <summary>
+            操作返回
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.OperateReturnInfo.#ctor">
+            <summary>
+            构造函数 
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.OperateReturnInfo.#ctor(PrjWebJWTandSwwage.Common.OperateCode)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="returnCode">OperateCodeEnum类型</param>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.OperateReturnInfo.#ctor(PrjWebJWTandSwwage.Common.OperateCode,System.Object)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="returnCode">OperateCodeEnum类型</param>
+            <param name="returnInfo">强制返回值</param>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.OperateReturnInfo.ReturnCode">
+            <summary>
+            返回的值类型
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.OperateReturnInfo.ReturnInfo">
+            <summary>
+            返回的可选信息
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.OperateReturnInfo.Success(System.Object)">
+            <summary>
+            构建操作成功信息
+            </summary>
+            <param name="returnInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.OperateReturnInfo.Failed(System.Object)">
+            <summary>
+            构建操作失败信息
+            </summary>
+            <param name="returnInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Common.SignTool">
+            <summary>
+            Sign签名工具类
+            提供功能【1：验证Sign签名是否正确
+            2.获取Sign签名】
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.SignTool.IsSign(System.String,System.Object[])">
+            <summary>
+            验证Sign签名是否正确
+            </summary>
+            <param name="sign">签名</param>
+            <param name="param">签名参数</param>
+            <returns>返回是否正确[true:正确;false:失败]</returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.SignTool.GetSign(System.Object[])">
+            <summary>
+            获取Sign签名
+            </summary>
+            <param name="param">签名参数</param>
+            <returns>返回签名</returns>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Common.SimpleObj">
+            <summary>
+            简单数据返回类型
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Common.SrpHttpResult">
+            <summary>
+            接口访问返回值
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.SrpHttpResult.code">
+            <summary>
+            操作返回值
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.SrpHttpResult.msg">
+            <summary>
+            操作返回值名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.SrpHttpResult.result">
+            <summary>
+            返回操作集合
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Common.TableTree">
+            <summary>
+            基于Iview的表格树形类
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.TableTree.ID">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.TableTree.InfoTypeID">
+            <summary>
+            类型编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.TableTree.ZName">
+            <summary>
+            中文名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.TableTree.EName">
+            <summary>
+            英文名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.TableTree.Describe">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.TableTree.Stt">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.TableTree.Identification">
+            <summary>
+            唯一标识
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.TableTree.children">
+            <summary>
+            子节点属性数组
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Common.ValiReturnInfo">
+            <summary>
+            校验返回信息
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.ValiReturnInfo.#ctor(System.Boolean)">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.ValiReturnInfo.#ctor(System.Boolean,System.String)">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.ValiReturnInfo.IsValidated">
+            <summary>
+            是否校验通过
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.ValiReturnInfo.ReturnInfo">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.ValiReturnInfo.Success(System.String)">
+            <summary>
+            校验成功
+            </summary>
+            <param name="returnInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Common.ValiReturnInfo.Failed(System.String)">
+            <summary>
+            校验失败
+            </summary>
+            <param name="returnInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Common.ZTree">
+            <summary>
+            树返回结果
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.ZTree.id">
+            <summary>
+            唯一编号 必须
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.ZTree.pId">
+            <summary>
+            父级 必须
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.ZTree.name">
+            <summary>
+            显示值 必须
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.ZTree.open">
+            <summary>
+            是否展开
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.ZTree.isParent">
+            <summary>
+            是否父级
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.ZTree.url">
+            <summary>
+            URL地址
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Common.ZTree.icon">
+            <summary>
+            子级图标
+            </summary>
+        </member>
         <member name="M:PrjWebJWTandSwwage.LoginController.Login(PrjWebJWTandSwwage.Models.UserInfoModels)">
             <summary>
-            登录(获取token)
+            登录(输入用户名和密码获取token)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Controllers.RabbitMQController.GetMessa">
+            <summary>
+            得到消息
             </summary>
             <returns></returns>
         </member>
@@ -18,6 +535,21 @@
             <param name="value">值</param>
             <returns></returns>
         </member>
+        <member name="M:PrjWebJWTandSwwage.Controllers.RedisController.SetUserRedis(System.String,PrjWebJWTandSwwage.Models.Users)">
+            <summary>
+            存储用户信息
+            </summary>
+            <param name="key">键</param>
+            <param name="users">用户对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Controllers.RedisController.GetUserRedis(System.String)">
+            <summary>
+            获取用户信息
+            </summary>
+            <param name="key">键</param>
+            <returns></returns>
+        </member>
         <member name="M:PrjWebJWTandSwwage.Controllers.RedisController.Getredis(System.String)">
             <summary>
             redis取值
@@ -27,10 +559,127 @@
         </member>
         <member name="M:PrjWebJWTandSwwage.Controllers.UserDataController.GetDate(PrjWebJWTandSwwage.Models.UserInfoModels,System.String)">
             <summary>
-            获取数据
+            通过id获取数据
             </summary>
             <param name="user"></param>
             <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Controllers.UserDataController.Update(PrjWebJWTandSwwage.Models.UserInfoModels,System.String)">
+            <summary>
+            通过id更新数据(根据主键更新数据,存在则更新,不存在则添加)
+            </summary>
+            <param name="user"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.UsersController.GetUsers(PrjWebJWTandSwwage.Models.Users,System.String)">
+            <summary>
+            获取用户信息
+            </summary>
+            <param name="user"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.UsersController.UpdateUser(System.Collections.Generic.List{PrjWebJWTandSwwage.Models.Users},System.String)">
+            <summary>
+            根据主键更新数据(存在修改,不存在添加)
+            </summary>
+            <param name="user"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.UsersController.DeleteUser(PrjWebJWTandSwwage.Models.Users,System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <param name="user"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.DAL.Common.FoundationDAL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.DAL.Common.FoundationDAL.ExecuteSQLForVersion(System.String,PrjWebJWTandSwwage.Base.VersionInfo)">
+            <summary>
+            执行SQL语句 并处理Version
+            为Save和Update提供
+            </summary>
+            <param name="prmStatementName"></param>
+            <param name="prmParamObject"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.IBLL.Common.IFoundationBLL">
+            <summary>
+            业务逻辑基础接口
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.IBLL.IUserBLL">
+            <summary>
+            用户逻辑层
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.IBLL.IUserBLL.GetUsr(PrjWebJWTandSwwage.Models.Users)">
+            <summary>
+            用户查询
+            </summary>
+            <param name="htUsr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.IBLL.IUserBLL.UpdateUsr(System.Collections.Generic.List{PrjWebJWTandSwwage.Models.Users})">
+            <summary>
+            用户更新
+            </summary>
+            <param name="prmUsr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.IBLL.IUserBLL.DeleteUsr(PrjWebJWTandSwwage.Models.Users)">
+            <summary>
+            用户删除
+            </summary>
+            <param name="prmUsr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.IBLL.IUserBLL.GetUserCount(PrjWebJWTandSwwage.Models.Users)">
+            <summary>
+            用户总数
+            </summary>
+            <param name="htUsr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.IDAL.IUserDAL">
+            <summary>
+            用户数据层
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.IDAL.IUserDAL.GetUsr(PrjWebJWTandSwwage.Models.Users)">
+            <summary>
+            用户查询
+            </summary>
+            <param name="us"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.IDAL.IUserDAL.UpdateUsr(System.Collections.Generic.List{PrjWebJWTandSwwage.Models.Users})">
+            <summary>
+            用户更新
+            </summary>
+            <param name="prmUsr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.IDAL.IUserDAL.DeleteUsr(PrjWebJWTandSwwage.Models.Users)">
+            <summary>
+            用户删除
+            </summary>
+            <param name="prmUsr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.IDAL.IUserDAL.GetUserCount(PrjWebJWTandSwwage.Models.Users)">
+            <summary>
+            用户总数
+            </summary>
+            <param name="us"></param>
             <returns></returns>
         </member>
         <member name="T:PrjWebJWTandSwwage.InterfaceTools.IRedisCacheManager">
@@ -164,6 +813,356 @@
             <param name="throwMsg"></param>
             <param name="ex"></param>
         </member>
+        <member name="T:PrjWebJWTandSwwage.Models.ComCode">
+            <summary>
+            编号生成表
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Models.ComCode.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ComCode.Type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ComCode.CompanyID">
+            <summary>
+            公司编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ComCode.MaxVlu">
+            <summary>
+            最大值
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ComCode.MinVlu">
+            <summary>
+            最小值
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ComCode.CurVlu">
+            <summary>
+            当前值
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ComCode.FixBits">
+            <summary>
+            固定位数
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ComCode.Prefix">
+            <summary>
+            前缀
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ComCode.Suffix">
+            <summary>
+            后缀
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ComCode.Brf">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ComCode.Uptr">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ComCode.CompanyName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ComCode.UptrName">
+            <summary>
+            更新人名称
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Models.CompanyRoles">
+            <summary>
+            公司模块表
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Models.CompanyRoles.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.CompanyRoles.CompanyID">
+            <summary>
+            公司编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.CompanyRoles.MdlID">
+            <summary>
+            模块编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.CompanyRoles.Brf">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.CompanyRoles.Uptr">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.CompanyRoles.PID">
+            <summary>
+            模块上级编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.CompanyRoles.CompanyName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.CompanyRoles.MdlName">
+            <summary>
+            模块名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.CompanyRoles.UptrName">
+            <summary>
+            更新人名称
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Models.Companys">
+            <summary>
+            公司
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Models.Companys.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Companys.ID">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Companys.IdentNo">
+            <summary>
+            公司10位编码
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Companys.Name">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Companys.CreCode">
+            <summary>
+            公司信用编码
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Companys.Lnkr">
+            <summary>
+            联系人
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Companys.Adr">
+            <summary>
+            联系地址
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Companys.Tel">
+            <summary>
+            办公电话
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Companys.Phone">
+            <summary>
+            联系电话
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Companys.OpnBnk">
+            <summary>
+            开户行
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Companys.ActNo">
+            <summary>
+            帐号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Companys.Stt">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Companys.Admin">
+            <summary>
+            系统管理员
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Companys.AdminTel">
+            <summary>
+            系统管理员电话
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Companys.Brf">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Companys.Uptr">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Companys.UptrName">
+            <summary>
+            更新人名称
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Models.ExceptionLog">
+            <summary>
+            异常日志表
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Models.ExceptionLog.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ExceptionLog.ID">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ExceptionLog.MethodName">
+            <summary>
+            报错方法名
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ExceptionLog.ClassName">
+            <summary>
+            报错类名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ExceptionLog.Message">
+            <summary>
+            异常信息
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ExceptionLog.Uptr">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.ExceptionLog.UptrName">
+            <summary>
+            更新人名称
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Models.Info">
+            <summary>
+            信息
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Models.Info.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Info.ID">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Info.InfoTypeID">
+            <summary>
+            类型编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Info.ZName">
+            <summary>
+            中文名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Info.EName">
+            <summary>
+            英文名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Info.Describe">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Info.Stt">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Info.Brf">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Info.Uptr">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Info.UptrName">
+            <summary>
+            更新人名称
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Models.InfoType">
+            <summary>
+            信息类型
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Models.InfoType.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.InfoType.ID">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.InfoType.ZName">
+            <summary>
+            中文名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.InfoType.EName">
+            <summary>
+            英文名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.InfoType.Describe">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.InfoType.Stt">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.InfoType.Uptr">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.InfoType.UptrName">
+            <summary>
+            更新人名称
+            </summary>
+        </member>
         <member name="P:PrjWebJWTandSwwage.Models.JsonResultModels.Code">
             <summary>
             返回码
@@ -182,6 +1181,672 @@
         <member name="P:PrjWebJWTandSwwage.Models.JsonResultModels.TnToken">
             <summary>
             Token信息
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Models.Mdls">
+            <summary>
+            模块表
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Models.Mdls.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.ID">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.SysPlatformID">
+            <summary>
+            所属系统ID
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.Name">
+            <summary>
+            模块名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.GuValue">
+            <summary>
+            唯一标识值
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.TmPath">
+            <summary>
+            模块路径
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.Describe">
+            <summary>
+            模块描述
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.MdlType">
+            <summary>
+            模块类型
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.Icon">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.PrtID">
+            <summary>
+            上级
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.Lvl">
+            <summary>
+            级次
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.EndFlg">
+            <summary>
+            末级
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.Seq">
+            <summary>
+            序号
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:PrjWebJWTandSwwage.Models.Mdls.Stt" -->
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.Funcs">
+            <summary>
+            功能
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.Uptr">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.SysGuValue">
+            <summary>
+            平台系统标识值
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.SysPlatformName">
+            <summary>
+            平台系统名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Mdls.UptrName">
+            <summary>
+            更新人名称
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Models.RoleMdl">
+            <summary>
+            角色模块表
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Models.RoleMdl.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleMdl.ID">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleMdl.CompanyID">
+            <summary>
+            公司编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleMdl.Role">
+            <summary>
+            角色编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleMdl.MdlID">
+            <summary>
+            模块编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleMdl.Brf">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleMdl.Uptr">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleMdl.PID">
+            <summary>
+            模块上级编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleMdl.CompanyName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleMdl.RoleName">
+            <summary>
+            角色名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleMdl.MdlName">
+            <summary>
+            模块名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleMdl.UptrName">
+            <summary>
+            更新人名称
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Models.Roles">
+            <summary>
+            角色表
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Models.Roles.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Roles.ID">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Roles.CompanyID">
+            <summary>
+            公司编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Roles.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Roles.Type">
+            <summary>
+            角色类型
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Roles.Brf">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Roles.Stt">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Roles.Uptr">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Roles.CompanyName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Roles.UptrName">
+            <summary>
+            更新人名称
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Models.RoleUser">
+            <summary>
+            角色用户表
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Models.RoleUser.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleUser.ID">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleUser.CompanyID">
+            <summary>
+            公司编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleUser.Role">
+            <summary>
+            角色编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleUser.UserId">
+            <summary>
+            用户编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleUser.Brf">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleUser.Uptr">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleUser.CompanyName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleUser.UserName">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleUser.RoleName">
+            <summary>
+            角色名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.RoleUser.UptrName">
+            <summary>
+            更新人名称
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Models.SysAuz">
+            <summary>
+            系统授权
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Models.SysAuz.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysAuz.ID">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysAuz.SysPlatformID">
+            <summary>
+            系统编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysAuz.CompanyID">
+            <summary>
+            公司编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysAuz.Sdata">
+            <summary>
+            有效开始时间
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysAuz.Edata">
+            <summary>
+            有效结束时间
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysAuz.Describe">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysAuz.Stt">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysAuz.Uptr">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysAuz.Brf">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysAuz.UptrName">
+            <summary>
+            更新人名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysAuz.SysPlatformName">
+            <summary>
+            平台系统名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysAuz.CompanyName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Models.SysPlatform">
+            <summary>
+            平台产品系统表
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Models.SysPlatform.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysPlatform.ID">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysPlatform.Name">
+            <summary>
+            系统名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysPlatform.GuValue">
+            <summary>
+            唯一标识值
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysPlatform.Describe">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysPlatform.Stt">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysPlatform.Brf">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysPlatform.Uptr">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.SysPlatform.isAut">
+            <summary>
+            F 为未授权
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Models.Tlts">
+            <summary>
+            部门
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Models.Tlts.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Tlts.ID">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Tlts.Name">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Tlts.CompanyID">
+            <summary>
+            公司编码
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Tlts.Describe">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Tlts.Stt">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Tlts.Brf">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Tlts.Uptr">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Tlts.CompanyName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Tlts.UptrName">
+            <summary>
+            更新人名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Tlts.EName">
+            <summary>
+            省略部门名称
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Models.UserPwr">
+            <summary>
+            用户权限表
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Models.UserPwr.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.UserPwr.UserID">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.UserPwr.CompanyID">
+            <summary>
+            公司编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.UserPwr.MdlID">
+            <summary>
+            模块编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.UserPwr.PwrIDs">
+            <summary>
+            权限
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.UserPwr.Brf">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.UserPwr.Uptr">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.UserPwr.SysGuValue">
+            <summary>
+            系统标识码
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.UserPwr.MdlGuValue">
+            <summary>
+            模块标识码
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.UserPwr.MdlFuncs">
+            <summary>
+            模块所有权限
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.UserPwr.CompanyName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.UserPwr.UserName">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.UserPwr.MdlName">
+            <summary>
+            模块名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.UserPwr.UptrName">
+            <summary>
+            更新人名称
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Models.Users">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Models.Users.#ctor">
+            <summary>
+            初始化实例
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.ID">
+            <summary>
+            编号 
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.CompanyID">
+            <summary>
+            公司编号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.LgnName">
+            <summary>
+            登录名
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.Tlt">
+            <summary>
+            部门
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.Sex">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.Brth">
+            <summary>
+            出生日期
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.Adr">
+            <summary>
+            住址
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.Mobile">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.Email">
+            <summary>
+            E_mail
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.VID">
+            <summary>
+            微信号
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.Type">
+            <summary>
+            用户类型
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.Pwd">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.SysFlg">
+            <summary>
+            用户登录标识
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.OnDtt">
+            <summary>
+            最近登录时间
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.PwdDtt">
+            <summary>
+            最近密码修改时间
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.Stt">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.Photo">
+            <summary>
+            照片
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.Brf">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.Uptr">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.CompanyName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.CompanyStt">
+            <summary>
+            公司状态
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.TltName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.TltStt">
+            <summary>
+            部门状态
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.Users.UptrName">
+            <summary>
+            更新人名称
             </summary>
         </member>
         <member name="T:PrjWebJWTandSwwage.RabbitMQTools.MessageRepository">
@@ -210,7 +1875,7 @@
             从配置文件读取数据库连接字符串
             </summary>
         </member>
-        <member name="F:PrjWebJWTandSwwage.SqlTools.SqlSugarConfig.Config">
+        <member name="P:PrjWebJWTandSwwage.SqlTools.SqlSugarConfig.db">
             <summary>
             基本配置项
             </summary>
@@ -290,6 +1955,7 @@
             <typeparam name="T"></typeparam>
             <param name="key"></param>
             <param name="obj"></param>
+            <param name="expiry"></param>
             <returns></returns>
         </member>
         <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.StringAppend(System.String,System.String)">

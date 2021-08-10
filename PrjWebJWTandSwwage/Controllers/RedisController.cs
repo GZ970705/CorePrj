@@ -25,7 +25,7 @@ namespace PrjWebJWTandSwwage.Controllers
         /// <returns></returns>
         [HttpPost]
         [AllowAnonymous]
-        public JsonResultModels Setredis(string key,string value)
+        public IActionResult Setredis(string key,string value)
         {
             var json = new JsonResultModels();
             try
@@ -34,7 +34,7 @@ namespace PrjWebJWTandSwwage.Controllers
                 {
                     json.Code = 201;
                     json.Msg = "键值不能为空";
-                    return json;
+                    return Ok(json);
                 }
                 else
                 {
@@ -51,9 +51,88 @@ namespace PrjWebJWTandSwwage.Controllers
                 json.Msg = "失败:" + ex.Message;
             }
 
-            return json;
+            return Ok(json);
         }
+        /// <summary>
+        /// 存储用户信息
+        /// </summary>
+        /// <param name="key">键</param>
+        /// <param name="users">用户对象</param>
+        /// <returns></returns>
+        [HttpPost]
+        [AllowAnonymous]
+        public IActionResult SetUserRedis(string key,[FromBody] Users users) {
+            var json = new JsonResultModels();
+            try
+            {
+                if (string.IsNullOrWhiteSpace(key))
+                {
+                    json.Code = 201;
+                    json.Msg = "键不能为空";
+                    return Ok(json);
+                }
+                else
+                {
 
+                    var a = RedisHelperNetCore.Instance.SetStringKey<Users>(key, users);
+                    json.Code = 200;
+                    json.Msg = "存储成功";
+                }
+
+            }
+            catch (Exception ex)
+            {
+                json.Code = 400;
+                json.Msg = "失败:" + ex.Message;
+            }
+            return Ok(json);
+
+        }
+        /// <summary>
+        /// 获取用户信息
+        /// </summary>
+        /// <param name="key">键</param>
+        /// <returns></returns>
+        [HttpPost]
+        [AllowAnonymous]
+
+        public IActionResult GetUserRedis(string key) {
+            var json = new JsonResultModels();
+
+            try
+            {
+                if (string.IsNullOrWhiteSpace(key))
+                {
+                    json.Code = 201;
+                    json.Msg = "键不能为空";
+                    return Ok(json);
+                }
+                else
+                {
+                    if (RedisHelperNetCore.Instance.KeyExists(key))
+                    {
+                        var a = RedisHelperNetCore.Instance.GetStringKey<Users>(key);
+                        json.Data = a;
+                        json.Code = 200;
+                        json.Msg = "取值成功";
+                    }
+                    else
+                    {
+                        json.Code = 202;
+                        json.Msg = "该key值没存储!";
+                    }
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                json.Code = 400;
+                json.Msg = "失败:" + ex.Message;
+            }
+            return Ok(json);
+
+        }
         /// <summary>
         /// redis取值
         /// </summary>
@@ -61,7 +140,7 @@ namespace PrjWebJWTandSwwage.Controllers
         /// <returns></returns>
         [HttpPost]
         [AllowAnonymous]
-        public JsonResultModels Getredis(string key)
+        public IActionResult Getredis(string key)
         {
             var json = new JsonResultModels();
             try
@@ -70,15 +149,23 @@ namespace PrjWebJWTandSwwage.Controllers
                 {
                     json.Code = 201;
                     json.Msg = "键不能为空";
-                    return json;
+                    return Ok(json);
                 }
                 else
                 {
-
-                    var a = RedisHelperNetCore.Instance.StringGet(key);
-                    json.Data = a;
-                    json.Code = 200;
-                    json.Msg = "取值成功";
+                    if (RedisHelperNetCore.Instance.KeyExists(key))
+                    {
+                        var a = RedisHelperNetCore.Instance.StringGet(key);
+                        json.Data = a;
+                        json.Code = 200;
+                        json.Msg = "取值成功";
+                    }
+                    else
+                    {
+                        json.Code = 202;
+                        json.Msg = "该key值没存储!";
+                    }
+                    
                 }
 
             }
@@ -88,7 +175,7 @@ namespace PrjWebJWTandSwwage.Controllers
                 json.Msg = "失败:" + ex.Message;
             }
 
-            return json;
+            return Ok(json);
         }
     }
 }

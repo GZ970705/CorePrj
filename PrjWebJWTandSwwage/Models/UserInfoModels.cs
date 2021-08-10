@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SqlSugar;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace PrjWebJWTandSwwage.Models
     public class UserInfoModels
     {
         [Key]
+        [SugarColumn(IsPrimaryKey = true, IsIdentity = true)]
         public int id { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }

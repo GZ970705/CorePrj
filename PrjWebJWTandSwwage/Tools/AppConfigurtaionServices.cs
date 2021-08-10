@@ -24,7 +24,6 @@ namespace PrjWebJWTandSwwage.Tools
         //        return _configuration;
         //    }
         //}
-        public static IConfiguration _configuration { get; set; }
         public static IConfiguration Configuration { get; set; }
         static AppConfigurtaionServices()
         {
@@ -46,14 +45,14 @@ namespace PrjWebJWTandSwwage.Tools
         }
 
         //获取配置
-       
+      
 
-        //获取指定节点(二级以上),要定义实体类
-        public static T GetAppsettings<T>(string key) where T : class, new()
+    //获取指定节点(二级以上),要定义实体类
+    public static T GetAppsettings<T>(string key) where T : class, new()
         {
             var appconfig = new ServiceCollection()
                 .AddOptions()
-                .Configure<T>(_configuration.GetSection(key))
+                .Configure<T>(Configuration.GetSection(key))
                 .BuildServiceProvider()
                 .GetService<IOptions<T>>().Value;
             return appconfig;
@@ -63,7 +62,7 @@ namespace PrjWebJWTandSwwage.Tools
         public static string GetSectionValue(string key)
         {
 
-            return _configuration.GetSection(key).Value;
+            return Configuration.GetSection(key).Value;
         }
 
         //获取配置文件名

@@ -65,8 +65,7 @@ namespace PrjWebJWTandSwwage
                 c.IncludeXmlComments(xmlPath);
             });
             #region JWT配置
-            var jwtconfig = Configuration.GetSection("JWTConfig").Get<JWTConfig>();
-            services.AddTransient<ITokenHelper, TokenHelper>();
+            var jwtconfig = Configuration.GetSection("JWTConfig").Get<JWTConfig>();          
             //读取配置文件配置的jwt相关配置
             services.Configure<JWTConfig>(Configuration.GetSection("JWTConfig"));
             services.AddAuthentication(Options => {
@@ -123,7 +122,7 @@ namespace PrjWebJWTandSwwage
             #endregion
             //配置token特性
             services.AddScoped<TokenFilter>();
-
+            services.AddTransient<ITokenHelper, TokenHelper>();
             services.AddMvc();
             //配置RabbitMQ服务
             //services.AddHostedService<RabbitListener>();
@@ -132,6 +131,9 @@ namespace PrjWebJWTandSwwage
             //注册Redis
             services.AddSingleton<IRedisCacheManager, RedisCacheManager>();
             services.Configure<RedisConfig>(Configuration.GetSection("RedisCaching"));
+            //配置数据交互Bll
+            services.AddSingleton<IUserModelBLL, UserModelBLL>();
+            services.AddSingleton<IUserBLL, UserBLL>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -159,9 +161,10 @@ namespace PrjWebJWTandSwwage
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1.0/swagger.json", "My SwaggerAPI");
-
                 c.RoutePrefix = string.Empty;
+
+                c.SwaggerEndpoint("/swagger/v1.0/swagger.json", "My SwaggerAPI");
+               
             });
 
             app.UseRouting();
@@ -179,4 +182,5 @@ namespace PrjWebJWTandSwwage
             
         }
     }
+
 }

@@ -1,0 +1,413 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PrjWebJWTandSwwage</name>
+    </assembly>
+    <members>
+        <member name="M:PrjWebJWTandSwwage.LoginController.Login(PrjWebJWTandSwwage.Models.UserInfoModels)">
+            <summary>
+            登录(获取token)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Controllers.RedisController.Setredis(System.String,System.String)">
+            <summary>
+            redis存值
+            </summary>
+            <param name="key">键</param>
+            <param name="value">值</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Controllers.RedisController.Getredis(System.String)">
+            <summary>
+            redis取值
+            </summary>
+            <param name="key">键</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Controllers.UserDataController.GetDate(PrjWebJWTandSwwage.Models.UserInfoModels,System.String)">
+            <summary>
+            获取数据
+            </summary>
+            <param name="user"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Controllers.UserDataController.Update(PrjWebJWTandSwwage.Models.UserInfoModels,System.String)">
+            <summary>
+            更新数据
+            </summary>
+            <param name="user"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.InterfaceTools.IRedisCacheManager">
+            <summary>
+            Redis缓存接口
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.JWT.ITokenHelper.CreateToken``1(``0)">
+            <summary>
+            根据一个对象通过反射提供负载生成token
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.JWT.ITokenHelper.CreateToken(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            根据键值对提供负载生成token
+            </summary>
+            <param name="keyvalues"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.JWT.ITokenHelper.ValiToken(System.String,System.Func{System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean})">
+            <summary>
+            Token验证
+            </summary>
+            <param name="encodeJwt">token</param>
+            <param name="validate">自定义各类验证； 是否包含那种申明，或者申明的值</param>
+            <returns></returns>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.JWT.JWTConfig">
+            <summary>
+            配置token信息
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.JWT.JWTConfig.Issuer">
+            <summary>
+            Token发布者
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.JWT.JWTConfig.Audience">
+            <summary>
+            oken接受者
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.JWT.JWTConfig.IssuerSigningKey">
+            <summary>
+            秘钥
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.JWT.JWTConfig.AccessTokenExpiresMinutes">
+            <summary>
+            过期时间
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.JWT.TnToken">
+            <summary>
+            存放Token 跟过期时间的类
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.JWT.TnToken.TokenStr">
+            <summary>
+            token
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.JWT.TnToken.Expires">
+            <summary>
+            过期时间
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.JWT.TnToken.TokenType">
+            <summary>
+            token类型
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.JWT.TokenHelper">
+            <summary>
+            token生成类
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.JWT.TokenHelper.CreateToken``1(``0)">
+            <summary>
+            根据一个对象通过反射提供负载生成token
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.JWT.TokenHelper.CreateToken(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            根据键值对提供负载生成token
+            </summary>
+            <param name="keyvalues"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.JWT.TokenHelper.ValiToken(System.String,System.Func{System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean})">
+            <summary>
+            验证身份 验证签名的有效性
+            </summary>
+            <param name="encodeJwt"></param>
+            <param name="validate">自定义各类验证； 是否包含那种申明，或者申明的值</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.JWT.TokenHelper.ToUnixEpochDate(System.DateTime)">
+            <summary>
+            时间转换
+            </summary>
+            <param name="date"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.JWT.TokenHelper.ValiTokenState(System.String,System.Func{System.Collections.Generic.Dictionary{System.String,System.String},System.Boolean},System.Action{System.Collections.Generic.Dictionary{System.String,System.String}})">
+            <summary>
+            自定义验证身份 验证签名的有效性
+            </summary>
+            <param name="encodeJwt">token</param>
+            <param name="validate">自定义各类验证； 是否包含那种申明，或者申明的值</param>
+            <param name="action">需要返回的值</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.JWT.TokenHelper.CreateTokenString(System.Collections.Generic.List{System.Security.Claims.Claim})">
+            <summary>
+            生成token
+            </summary>
+            <param name="claims"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Log4net.Log4NetUtil.LogError(System.String,System.Exception)">
+            <summary>
+            全局异常错误记录持久化
+            </summary>
+            <param name="throwMsg"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.JsonResultModels.Code">
+            <summary>
+            返回码
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.JsonResultModels.Msg">
+            <summary>
+            消息
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.JsonResultModels.Data">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Models.JsonResultModels.TnToken">
+            <summary>
+            Token信息
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.RabbitMQTools.MessageRepository">
+            <summary>
+            发送端
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.RabbitMQTools.MessageRepository.RabbitMQPush(System.String)">
+            <summary>
+            MQ下发消息
+            </summary>
+            <param name="encryption"></param>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.RabbitMQTools.RabbitListener">
+            <summary>
+            接收端
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.RabbitMQTools.RabbitMQClientUnit">
+            <summary>
+            MQ连接对象
+            </summary>
+        </member>
+        <member name="F:PrjWebJWTandSwwage.SqlTools.SqlSugarConfig.conStr">
+            <summary>
+            从配置文件读取数据库连接字符串
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.SqlTools.SqlSugarConfig.GetClientInit">
+            <summary>
+            基本配置项
+            </summary>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Tools.AppConfigurtaionServices">
+            <summary>
+            读取配置文件
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCacheManager.GetRedisConnection">
+            <summary>
+            核心代码，获取连接实例
+            通过双if 夹lock的方式，实现单例模式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:PrjWebJWTandSwwage.Tools.RedisCommon">
+            <summary>
+            Redis操作类
+            老版用的是ServiceStack.Redis。
+            Net Core使用StackExchange.Redis的nuget包
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.#ctor(System.Int32,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="db"></param>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Tools.RedisCommon.CacheConnection">
+            <summary>
+            缓存数据库，数据库连接
+            </summary>
+        </member>
+        <member name="P:PrjWebJWTandSwwage.Tools.RedisCommon.CacheRedis">
+            <summary>
+            缓存数据库
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.StringSet(System.String,System.String)">
+            <summary>
+            单条存值
+            </summary>
+            <param name="key">key</param>
+            <param name="value">The value.</param>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.StringSet(System.String,System.String,System.Nullable{System.TimeSpan})">
+            <summary>
+            保存单个key value
+            </summary>
+            <param name="key">Redis Key</param>
+            <param name="value">保存的值</param>
+            <param name="expiry">过期时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.StringSet(System.Collections.Generic.KeyValuePair{StackExchange.Redis.RedisKey,StackExchange.Redis.RedisValue}[])">
+            <summary>
+            保存多个key value
+            </summary>
+            <param name="arr">key</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.StringSetMany(System.String[],System.String[])">
+            <summary>
+            批量存值
+            </summary>
+            <param name="keysStr">key</param>
+            <param name="valuesStr">The value.</param>
+            <returns><c>true</c> if XXXX, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.SetStringKey``1(System.String,``0,System.Nullable{System.TimeSpan})">
+            <summary>
+            保存一个对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="key"></param>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.StringAppend(System.String,System.String)">
+            <summary>
+            追加值
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.GetStringKey(System.String)">
+            <summary>
+            获取单个key的值
+            </summary>
+            <param name="key">Redis Key</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.StringGet(System.String)">
+            <summary>
+            根据Key获取值
+            </summary>
+            <param name="key">键值</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.GetStringKey(System.Collections.Generic.List{StackExchange.Redis.RedisKey})">
+            <summary>
+            获取多个Key
+            </summary>
+            <param name="listKey">Redis Key集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.StringGetMany(System.String[])">
+            <summary>
+            批量获取值
+            </summary>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.GetStringKey``1(System.String)">
+            <summary>
+            获取一个key的对象
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.KeyDelete(System.String)">
+            <summary>
+            删除单个key
+            </summary>
+            <param name="key">redis key</param>
+            <returns>是否删除成功</returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.KeyDelete(StackExchange.Redis.RedisKey[])">
+            <summary>
+            删除多个key
+            </summary>
+            <param name="keys">rediskey</param>
+            <returns>成功删除的个数</returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.KeyExists(System.String)">
+            <summary>
+            判断key是否存储
+            </summary>
+            <param name="key">redis key</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.KeyRename(System.String,System.String)">
+            <summary>
+            重新命名key
+            </summary>
+            <param name="key">就的redis key</param>
+            <param name="newKey">新的redis key</param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.HaseDelete(StackExchange.Redis.RedisKey,StackExchange.Redis.RedisValue)">
+            <summary>
+            删除hasekey
+            </summary>
+            <param name="key"></param>
+            <param name="hashField"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.HashRemove(System.String,System.String)">
+            <summary>
+            移除hash中的某值
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="key"></param>
+            <param name="dataKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.RedisCommon.SetExpire(System.String,System.DateTime)">
+            <summary>
+            设置缓存过期
+            </summary>
+            <param name="key"></param>
+            <param name="datetime"></param>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.SerializeHelper.Serialize(System.Object)">
+            <summary>
+            序列化
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PrjWebJWTandSwwage.Tools.SerializeHelper.Deserialize``1(System.Byte[])">
+            <summary>
+            反序列化
+            </summary>
+            <typeparam name="TEntity"></typeparam>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

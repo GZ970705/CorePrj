@@ -24,5 +24,6 @@ namespace PrjWebJWTandSwwage.Models
         /// Token信息
         /// </summary>
         public  TnToken TnToken { get; set; }
+        public decimal Count { get; set; }
     }
 }

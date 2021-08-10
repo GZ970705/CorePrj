@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using PrjWebJWTandSwwage.BLL;
+using PrjWebJWTandSwwage.IBLL;
 using PrjWebJWTandSwwage.JWT;
 using PrjWebJWTandSwwage.Log4net;
 using PrjWebJWTandSwwage.Models;
@@ -20,18 +21,18 @@ namespace PrjWebJWTandSwwage
     public class LoginController : Controller
     {
         private readonly ITokenHelper _tokenHelper = null;
+        private readonly IUserModelBLL _userBLL;
 
-
-        public LoginController(ITokenHelper tokenHelper)
+        public LoginController(ITokenHelper tokenHelper, IUserModelBLL userBLL)
         {
             this._tokenHelper = tokenHelper;
-
+            this._userBLL = userBLL;
         }
 
         
 
         /// <summary>
-        /// 登录(获取token)
+        /// 登录(输入用户名和密码获取token)
         /// </summary>
         /// <returns></returns>
         [HttpPost]
@@ -49,7 +50,7 @@ namespace PrjWebJWTandSwwage
                 }
                 else
                 {
-                    var UserDate = new UserBLL().CheckUser(user.UserName, user.Password);
+                    var UserDate = _userBLL.CheckUser(user.UserName, user.Password);
                     if (UserDate == null)
                     {
                         json.Code = 400;

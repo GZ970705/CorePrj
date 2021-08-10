@@ -233,4 +233,5 @@ E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\bin\Debug\netcoreapp3.1\Kdbnd
 E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
 E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
 E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\bin\Debug\netcoreapp3.1\web.config
 E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\obj\Debug\netcoreapp3.1\PrjWebJWTandSwwage.csprojAssemblyReference.cache

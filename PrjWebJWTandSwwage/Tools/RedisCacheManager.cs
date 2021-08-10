@@ -15,9 +15,11 @@ namespace PrjWebJWTandSwwage.Tools
         private readonly string redisConnenctionString;
         public volatile ConnectionMultiplexer redisConnection;
         private readonly object redisConnectionLock = new object();
-        public RedisCacheManager()
+        private readonly IConfiguration _configuration;
+        public RedisCacheManager(IConfiguration configuration)
         {
-            string redisConfiguration = AppConfigurtaionServices.Configuration["RedisCaching:ConnectionString"];//获取连接字符串
+            _configuration = configuration;
+            string redisConfiguration = _configuration.GetConnectionString("ConnectionString");//获取连接字符串
 
             if (string.IsNullOrWhiteSpace(redisConfiguration))
             {

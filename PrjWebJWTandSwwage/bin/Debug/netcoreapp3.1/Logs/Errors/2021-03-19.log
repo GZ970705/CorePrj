@@ -1,0 +1,33 @@
+
+＝＝＝＝＝＝＝＝＝＝
+【日志级别】：ERROR
+【记录时间】：2021-03-19 14:41:49,804 
+【执行时间】：[1818]毫秒
+【抛出信息】：全局异常 
+【异常类型】：NotSupportedException 
+【异常信息】：Ambiguous HTTP method for action - PrjWebJWTandSwwage.UsersController.DeleteUser (PrjWebJWTandSwwage). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0 
+【堆栈调用】：
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PrjWebJWTandSwwage.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\Startup.cs:line 154
+--- End of stack trace from previous location where exception was thrown ---
+   at PrjWebJWTandSwwage.Tools.GlobalExceptionMiddleware.Invoke(HttpContext context) in E:\.net core\PrjWebJWTandSwwage\PrjWebJWTandSwwage\Tools\GlobalExceptionMiddleware.cs:line 24
+
+＝＝＝＝＝＝＝＝＝＝
+【日志级别】：ERROR
+【记录时间】：2021-03-19 14:52:21,189 
+【执行时间】：[11367]毫秒
+【抛出信息】：全局异常 
+【异常类型】：InvalidOperationException 
+【异常信息】：Unable to resolve service for type 'PrjWebJWTandSwwage.IBLL.IUserModelBLL' while attempting to activate 'PrjWebJWTandSwwage.LoginController'. 
+【堆栈调用】：
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)

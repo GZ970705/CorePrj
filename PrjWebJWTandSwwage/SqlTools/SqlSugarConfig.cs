@@ -20,13 +20,16 @@ namespace PrjWebJWTandSwwage.SqlTools
         /// <summary>
         /// 基本配置项
         /// </summary>
-        protected static ConnectionConfig Config = new ConnectionConfig
+        public static SqlSugarClient db
         {
-            ConnectionString = conStr,//连接字符串
-            DbType = SqlSugar.DbType.SqlServer,//数据库类型
-            IsAutoCloseConnection = true,//是否自动关闭数据库连接
-            InitKeyType = InitKeyType.Attribute
-        };
-    
+            get => new SqlSugarClient(new ConnectionConfig() 
+            {
+                ConnectionString = conStr,//连接字符串
+                DbType = SqlSugar.DbType.SqlServer,//数据库类型
+                IsAutoCloseConnection = true,//是否自动关闭数据库连接
+                InitKeyType = InitKeyType.Attribute
+            });
+        }
+
     }
 }
