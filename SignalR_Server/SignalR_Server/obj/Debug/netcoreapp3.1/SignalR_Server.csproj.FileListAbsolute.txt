@@ -1,0 +1,122 @@
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\appsettings.json
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.exe
+D:\VsProject\study1\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.csprojAssemblyReference.cache
+D:\VsProject\study1\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.AssemblyInfoInputs.cache
+D:\VsProject\study1\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.AssemblyInfo.cs
+D:\VsProject\study1\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.RazorTargetAssemblyInfo.cache
+D:\VsProject\study1\SignalR_Server\obj\Debug\netcoreapp3.1\staticwebassets\SignalR_Server.StaticWebAssets.Manifest.cache
+D:\VsProject\study1\SignalR_Server\obj\Debug\netcoreapp3.1\staticwebassets\SignalR_Server.StaticWebAssets.xml
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.deps.json
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.runtimeconfig.json
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.runtimeconfig.dev.json
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.dll
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.pdb
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\System.Net.WebSockets.WebSocketProtocol.dll
+D:\VsProject\study1\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.csproj.CopyComplete
+D:\VsProject\study1\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.dll
+D:\VsProject\study1\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.pdb
+D:\VsProject\study1\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.genruntimeconfig.cache
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\Ladder.dll
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\VsProject\study1\SignalR_Server\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\VsProject\study1\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.csproj.CoreCompileInputs.cache
+D:\VsProject\study1\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.MvcApplicationPartsAssemblyInfo.cache
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.csprojAssemblyReference.cache
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.AssemblyInfoInputs.cache
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.AssemblyInfo.cs
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.csproj.CoreCompileInputs.cache
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.MvcApplicationPartsAssemblyInfo.cache
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.pdb
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\bin\Debug\netcoreapp3.1\appsettings.json
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.exe
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.deps.json
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.runtimeconfig.json
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.runtimeconfig.dev.json
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.pdb
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\bin\Debug\netcoreapp3.1\System.Net.WebSockets.WebSocketProtocol.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.RazorTargetAssemblyInfo.cache
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.csproj.CopyComplete
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\obj\Debug\netcoreapp3.1\staticwebassets\SignalR_Server.StaticWebAssets.Manifest.cache
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\obj\Debug\netcoreapp3.1\staticwebassets\SignalR_Server.StaticWebAssets.xml
+D:\VsProject\study1\SignalR_Demo\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.genruntimeconfig.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.exe
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.deps.json
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.runtimeconfig.json
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.runtimeconfig.dev.json
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.pdb
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.csprojAssemblyReference.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.AssemblyInfoInputs.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.AssemblyInfo.cs
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.csproj.CoreCompileInputs.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.RazorTargetAssemblyInfo.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.csproj.CopyComplete
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\staticwebassets\SignalR_Server.StaticWebAssets.Manifest.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\staticwebassets\SignalR_Server.StaticWebAssets.xml
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.pdb
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.genruntimeconfig.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\appsettings.json
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.exe
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.deps.json
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.runtimeconfig.json
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.runtimeconfig.dev.json
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.pdb
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\bin\Debug\netcoreapp3.1\System.Net.WebSockets.WebSocketProtocol.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.csprojAssemblyReference.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.AssemblyInfoInputs.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.AssemblyInfo.cs
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.csproj.CoreCompileInputs.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.MvcApplicationPartsAssemblyInfo.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.RazorTargetAssemblyInfo.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.csproj.CopyComplete
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\staticwebassets\SignalR_Server.StaticWebAssets.Manifest.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\staticwebassets\SignalR_Server.StaticWebAssets.xml
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.pdb
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.genruntimeconfig.cache
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\bin\Debug\netcoreapp3.1\appsettings.json
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.exe
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.deps.json
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.runtimeconfig.json
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.runtimeconfig.dev.json
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.dll
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\bin\Debug\netcoreapp3.1\SignalR_Server.pdb
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\bin\Debug\netcoreapp3.1\System.Net.WebSockets.WebSocketProtocol.dll
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.csprojAssemblyReference.cache
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.AssemblyInfoInputs.cache
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.AssemblyInfo.cs
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.csproj.CoreCompileInputs.cache
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.MvcApplicationPartsAssemblyInfo.cache
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.RazorTargetAssemblyInfo.cache
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.csproj.CopyComplete
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\obj\Debug\netcoreapp3.1\staticwebassets\SignalR_Server.StaticWebAssets.Manifest.cache
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\obj\Debug\netcoreapp3.1\staticwebassets\SignalR_Server.StaticWebAssets.xml
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.dll
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.pdb
+E:\.net core\TenSignalR\SignalR_Server\SignalR_Server\obj\Debug\netcoreapp3.1\SignalR_Server.genruntimeconfig.cache

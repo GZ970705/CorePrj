@@ -1,0 +1,111 @@
+D:\VsProject\study1\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\VsProject\study1\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\appsettings.json
+D:\VsProject\study1\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\VsProject\study1\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.exe
+D:\VsProject\study1\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.deps.json
+D:\VsProject\study1\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.runtimeconfig.json
+D:\VsProject\study1\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.runtimeconfig.dev.json
+D:\VsProject\study1\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.dll
+D:\VsProject\study1\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.pdb
+D:\VsProject\study1\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.Views.dll
+D:\VsProject\study1\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.Views.pdb
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.csprojAssemblyReference.cache
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.AssemblyInfoInputs.cache
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.AssemblyInfo.cs
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.csproj.CoreCompileInputs.cache
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.MvcApplicationPartsAssemblyInfo.cache
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.RazorAssemblyInfo.cache
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.RazorAssemblyInfo.cs
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.TagHelpers.input.cache
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.TagHelpers.output.cache
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.RazorCoreGenerate.cache
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.RazorTargetAssemblyInfo.cache
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.RazorTargetAssemblyInfo.cs
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.Views.pdb
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\staticwebassets\SignalR_MVC_Client.StaticWebAssets.Manifest.cache
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\staticwebassets\SignalR_MVC_Client.StaticWebAssets.xml
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.dll
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.pdb
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.genruntimeconfig.cache
+D:\VsProject\study1\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.csproj.CopyComplete
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.exe
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.deps.json
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.runtimeconfig.json
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.runtimeconfig.dev.json
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.pdb
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.Views.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.Views.pdb
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.csprojAssemblyReference.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.AssemblyInfoInputs.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.AssemblyInfo.cs
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.csproj.CoreCompileInputs.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.RazorAssemblyInfo.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.RazorAssemblyInfo.cs
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.TagHelpers.input.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.TagHelpers.output.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.RazorCoreGenerate.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.RazorTargetAssemblyInfo.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.RazorTargetAssemblyInfo.cs
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.Views.pdb
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\staticwebassets\SignalR_MVC_Client.StaticWebAssets.Manifest.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\staticwebassets\SignalR_MVC_Client.StaticWebAssets.xml
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.pdb
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.genruntimeconfig.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.csproj.CopyComplete
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\appsettings.json
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.exe
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.deps.json
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.runtimeconfig.json
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.runtimeconfig.dev.json
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.pdb
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.Views.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\bin\Debug\netcoreapp3.1\SignalR_MVC_Client.Views.pdb
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.csprojAssemblyReference.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.AssemblyInfoInputs.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.AssemblyInfo.cs
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.csproj.CoreCompileInputs.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.MvcApplicationPartsAssemblyInfo.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.RazorAssemblyInfo.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.RazorAssemblyInfo.cs
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.TagHelpers.input.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.TagHelpers.output.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.RazorCoreGenerate.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.RazorTargetAssemblyInfo.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.RazorTargetAssemblyInfo.cs
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.Views.pdb
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\staticwebassets\SignalR_MVC_Client.StaticWebAssets.Manifest.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\staticwebassets\SignalR_MVC_Client.StaticWebAssets.xml
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.pdb
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.genruntimeconfig.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\mvc客户端\SignalR_MVC_Client\obj\Debug\netcoreapp3.1\SignalR_MVC_Client.csproj.CopyComplete

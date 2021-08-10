@@ -1,0 +1,132 @@
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.exe
+D:\VsProject\study1\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.csprojAssemblyReference.cache
+D:\VsProject\study1\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.AssemblyInfoInputs.cache
+D:\VsProject\study1\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.AssemblyInfo.cs
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Client.Core.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Common.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+D:\VsProject\study1\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.csproj.CopyComplete
+D:\VsProject\study1\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.csproj.CoreCompileInputs.cache
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.deps.json
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.runtimeconfig.json
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.runtimeconfig.dev.json
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.pdb
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Connections.Client.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\VsProject\study1\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Client.dll
+D:\VsProject\study1\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.dll
+D:\VsProject\study1\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.pdb
+D:\VsProject\study1\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.genruntimeconfig.cache
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.exe
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.deps.json
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.runtimeconfig.json
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.runtimeconfig.dev.json
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.pdb
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Connections.Client.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Client.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Client.Core.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Common.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.csprojAssemblyReference.cache
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.AssemblyInfoInputs.cache
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.AssemblyInfo.cs
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.csproj.CoreCompileInputs.cache
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.csproj.CopyComplete
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.dll
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.pdb
+D:\VsProject\study1\SignalR_Demo\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.genruntimeconfig.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.exe
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.deps.json
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.runtimeconfig.json
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.runtimeconfig.dev.json
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.pdb
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.csprojAssemblyReference.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.AssemblyInfoInputs.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.AssemblyInfo.cs
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.csproj.CoreCompileInputs.cache
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.csproj.CopyComplete
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.dll
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.pdb
+C:\Users\fxsz52166\Desktop\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.genruntimeconfig.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.exe
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.deps.json
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.runtimeconfig.json
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.runtimeconfig.dev.json
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\SignalR_Client.pdb
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Connections.Abstractions.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Connections.Client.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Connections.Common.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Client.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Client.Core.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Common.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.csprojAssemblyReference.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.AssemblyInfoInputs.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.AssemblyInfo.cs
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.csproj.CoreCompileInputs.cache
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.csproj.CopyComplete
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.dll
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.pdb
+E:\.net core\SignalR_Demo-master\SignalR_Demo-master\服务端和控制台客户端\SignalR_Client\obj\Debug\netcoreapp3.1\SignalR_Client.genruntimeconfig.cache
