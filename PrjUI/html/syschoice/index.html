@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>系统选择 - SmallGroup平台</title>
+    <meta name="description" content="SmallGroup 是一个基于最新 Web
+                            技术的企业级通用管理系统平台，可以帮助企业极大的提高工作效率，节省管理成本，提升品牌形象。" />
+    <meta name="keyword" content="SmallGroup,易使用 易上手的系统平台" />
+    <link rel="shortcut icon" href="~/favicon.ico">
+    <link href="../../coquettish-load/css/normalize.css" rel="stylesheet" />
+    <link href="../../bootstrap/bootstrap3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../ViewUI/css/iview.css" rel="stylesheet" />
+    <link href="../../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../../Animate/animate.css" rel="stylesheet" />
+    <link href="../../frame/toastr/toastr.min.css" rel="stylesheet" />
+    <link href="../../Tool/css/style.css" rel="stylesheet" />
+	</head>
+	<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeInRight" id="app">
+        <Row style="padding-top:10px;" v-for="item in SysData">
+            <i-col span="11" v-for="(info, index) in item.list" :offset="index == 0 ? 0 : 2">
+                <Card @@click.prevent.native="ChoiceSys($event)" :ID="info.ID" :isAut="info.isAut">
+                    <p slot="extra" style="color:#ff9900;" v-if="info.isAut == 'F'">未授权</p>
+                    <p slot="extra" style="color:#19be6b;" v-else>已授权</p>
+                    <div style="text-align:center">
+                        <a>
+                            <h1>{{ info.Name }}</h1>
+                            <h3 style="color:black;text-align:left">{{info.Describe}}</h3>
+                        </a>
+                    </div>
+                </Card>
+            </i-col>
+        </Row>
+    </div>
+</body>
+</html>
+<script src="../../Scripts/jquery.min.js"></script>
+<script src="../../vue/vue.min.js"></script>
+<script src="../../vue/vue-router.js"></script>
+<script src="../../ViewUI/iview.min.js"></script>
+<script src="../../bootstrap/bootstrap3.7/js/bootstrap.min.js"></script>
+<script src="../../frame/toastr/toastr.min.js"></script>
+<script src="../../Tool/Comm.js"></script>
+<script src="../../coquettish-load/js/main.js"></script>
+<script>
+    //系统选择
+    var app = new Vue({
+        el: "#app",
+        data: {
+            SysData: []
+        },
+        methods: {
+            ///查询公司授权系统
+            GetSysAuzList: function () {
+                var _this = this;
+                Comm.AjaxPost('/Home/SysChoice/GetSysAuzList', {}, function (obj) {
+                    _this.SysData = obj;
+                    _this.renderFunc();
+                }, null, "加载中。。");
+            },
+            ///选择系统
+            ChoiceSys: function (e) {
+                var _this = this;
+                // e.target 是你当前点击的元素
+                // e.currentTarget 是你绑定事件的元素
+                var isAut = $(e.currentTarget).attr("isAut");
+                if (isAut != "F") {
+                    var SysPlatformID = $(e.currentTarget).attr("ID");
+                    Comm.AjaxPost('/Home/SysChoice/ChoiceSys', { SysPlatformID: SysPlatformID }, function (obj) {
+                        if (obj) {
+                            window.localStorage.hidpag = "z-my";
+                            window.location.href = "/Home/Index/Index";
+                        }
+                    }, function (msg) {
+                        this.$Message.warning(msg);
+                    }, "加载中。。");
+                } else {
+                    this.$Message.warning('当前此系统未向您授权！有问题请联系平台人员处理！');
+                }
+            },
+            renderFunc: function () {
+                this.$Notice.info({
+                    title: '提示',
+                    desc: '您可以在这选择进入系统.',
+                });
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            _this.GetSysAuzList();
+        }
+    });
+</script>
